@@ -1,6 +1,8 @@
 // Create a fungible token that allows an admin to ban specified addresses from 
 // sending and receiving tokens.
 
+pragma solidity >=0.8.22 <0.9.0;
+
 contract tokenWeekOne { // can I `is ERC20` ?
     string public name;
     string public symbol;
